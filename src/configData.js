@@ -1,7 +1,11 @@
 import Logo from "./Imgs/logo1.png";
 
-const title= " Apna Cake shop ";
-const ShopImg = Logo;
+const ShopDeatails={
+ ShopName: " Apna Cake shop ",
+ ShopImg : Logo,
+ TagLine:"Love At First Bite."
+}
+
 
 const Features=["A good Oven" , "Freshness"," Customer Service" ,
     "Affordable prices","Discounts and Coupons", "Quality"
@@ -13,7 +17,7 @@ const theme= {
         secondaryColor: "#F5E0D2 ",
         Heading: "#232323",
         description:"#616161"
-        
+
     }
 
-export {title,ShopImg,Features,Flavors,theme}
+export {ShopDeatails,Features,Flavors,theme}
