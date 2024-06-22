@@ -36,7 +36,7 @@ const Features=[{
 {
     featureName:"Discounts and Coupons" ,
     featureImg:Discount
-}
+},
 {
     featureName:"Quality" ,
     featureImg:Quality
@@ -62,10 +62,11 @@ const Flavors= [
 
  ];
 const theme= {
-    primaryColor: '#ff6347', // Tomato
-    secondaryColor: '#ffa500', // Orange
-    headingColor: '#4b0082', // Indigo
-    subheadingColor: '#20b2aa', // Light Sea Green
+    primaryColor: '#ff6347', 
+    secondaryColor: '#404040', 
+    headingColor: '#4b0082',
+    subheadingColor: '#20b2aa', 
+  
   }
 
 export {ShopDeatails,Features,Flavors,theme}
